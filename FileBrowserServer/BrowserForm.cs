@@ -13,7 +13,6 @@ namespace FileBrowserServer
 
 		public BrowserForm(IClient _client)
 		{
-			base.Load += this.BrowserForm_Load;
 			this.Client = _client;
 			this.InitializeComponent();
 		}

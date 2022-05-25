@@ -338,6 +338,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "File Browser - {0}";
+            this.Load += new System.EventHandler(this.BrowserForm_Load);
             this.cmsLocal.ResumeLayout(false);
             this.cmsRemote.ResumeLayout(false);
             this.ResumeLayout(false);
